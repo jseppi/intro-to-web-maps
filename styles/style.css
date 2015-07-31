@@ -162,3 +162,9 @@ p.display {
   top: 50%;
   transform: translateY(-60%);
 }
+
+p.caption {
+  font-size: smaller;
+  padding: 0;
+  background: rgba(240, 202, 77, 0.3);
+}

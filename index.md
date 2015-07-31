@@ -38,17 +38,19 @@ And also maps from [Bing](https://www.bing.com/maps/), [MapQuest](http://mapques
 
 Typically streets or satellite imagery
 
-![](img/bing-satellite.png)
+![[Bing Satellite](http://bing.com/maps)](img/bing-satellite.png)
 
 # What is a Web Map?
 
 Sometimes with additional data overlaid
 
-![](img/iswp-needs.png)
+![[apps.texastribune.org/reservoirs/](http://apps.texastribune.org/reservoirs/)](img/tt-reservoirlevels.png)
 
-. . .
+# What is a Web Map?
 
 Found everywhere these days: news sites, food review sites, travel booking sites, etc.
+
+(TODO: Collage image of yelp, eater, airbnb, iswp, etc)
 
 # Some History
 
