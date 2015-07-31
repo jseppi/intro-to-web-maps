@@ -18,6 +18,17 @@ body {
 body p, body ul {
   font-size: 30pt;
   line-height: 34pt;
+
+}
+
+span.larger {
+  font-size: 40pt;
+  line-height: 44pt;
+}
+
+span.largest {
+  font-size: 60pt;
+  line-height: 64pt;
 }
 
 ul { display: inline-block; }
@@ -74,7 +85,9 @@ div.slide h1 {
 }
 
 p a:link,
-p a:visited {
+p a:visited,
+ul a:link,
+ul a:visited {
   color: #DE5B49;
   /*text-decoration: underline;*/
 }
@@ -126,4 +139,26 @@ p a:visited {
 
 p.display {
   font-family: monospace;   
+}
+
+.attr {
+  position: absolute;
+  bottom: 1em;
+  right: 0.5em;
+  font-size: 0.5em;
+}
+
+.big-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: -20px;
+}
+
+.big-image img {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-60%);
 }
