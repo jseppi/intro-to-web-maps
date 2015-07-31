@@ -16,6 +16,12 @@ Viewable at [jseppi.github.io/intro-to-web-maps/](http://jseppi.github.io/intro-
 
 Source code at [github.com/jseppi/intro-to-web-maps/](https://github.com/jseppi/intro-to-web-maps/)
 
+# What is an Online Map?
+
+# What is an <s>Online</s> Map?
+
+<h1>What is a Web Map?</h1>
+
 # What is a Web Map?
 
 A cartographic map on a web page
@@ -158,7 +164,9 @@ Austin Open Source GIS User Group
 
 [meetup.com/atx-osg](http://www.meetup.com/atx-osg)
 
-![[meetup.com/MaptimeATX](http://www.meetup.com/MaptimeATX)](img/maptimeatx.png)
+![](img/maptimeatx.png)
+
+[meetup.com/MaptimeATX](http://www.meetup.com/MaptimeATX)
 
 # Credits
 
