@@ -158,9 +158,11 @@ p.display {
 .big-image img {
   position: relative;
   margin: auto;
-  width: 100%;
+  width: 90%;
+  max-height: 90%;
+  max-width: 90%;
   top: 50%;
-  transform: translateY(-60%);
+  transform: translateY(-50%);
 }
 
 p.caption {

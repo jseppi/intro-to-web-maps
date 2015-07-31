@@ -1,10 +1,10 @@
-% Intro to Web Maps
+% Basics of Online Maps
 % James Seppi
 % August 4, 2015
 
 -------------------------------------------------
 
-# Intro to Web Maps
+# Basics of Online Maps
 
 Presentation by James Seppi
 
@@ -105,6 +105,51 @@ Fluid, continuous panning and zooming
 <div class="big-image"><img src="img/tim-and-eric-mind-blown.gif"></img></div>
 
 ---------------------
+
+# Tile Technology
+
+. . .
+
+![](img/alhambra-tiles.jpg)
+
+<div class="attr">Alhambra Tiles 7: <a href="https://creativecommons.org/licenses/by/2.0/">CC BY</a>, <a href="https://www.flickr.com/photos/robven/3142024214/in/photolist-5MDGkh-95VRZ-ouVA1-66KGDn-qaotmE-onLhdx-6SX2m6-o9KdDb-nSSTGi-pWcepA-aHtBsF-63q5Xt-h2uRRu-bCQDqi-q9CxTN-qcJQVD-5ZCkiG-hqa5CH-En8XK-qdFEjA-4P8bvg-63YJGV-pVFte6-qdoGfB-hgGiZJ-meVoK-pV85k6-69HBqj-PR9cQ-5MDGa3-4PeYHz-8Pgm3g-9vumGC-6RsTYt-4zGa4t-3tpASM-6kbcGU-hqb8fT-qaVW8N-5MzsxP-bkkE5P-q4G6Lm-pMvun-6Y3sM9-38aYez-4gu2oJ-6de9B-3Cmxni-5Mzs8p-afCky">Source</a></div>
+
+# Tile Technology
+
+![](img/ner-tiles.jpg)
+
+<div class="attr">NER Tile Map segment Beverley: <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-NC-ND</a>, <a href="https://www.flickr.com/photos/johngreyturner/394625304/in/photolist-ASymy-ASyJo-ASyDz-ASyvX-bQtmfa-oXsQHL-eYgmQJ-btgqpB-9MK1RC-nDZjmy-7eTCVD-9uPfUD-9sCzr9-tdZEa5-te84EX-tteNmQ-syKbNR-tvhyFb-syKd46-te84op-tdZD7d-syyBm1-tdYrT1-tdYtGw-nE1iek-nWtvja-9L7DUS-9uBpnm-nWopSs-nYg6x2-nDZztu-nDZywu-9wb1AR-au9Dmy-9uyoRM-nWorCb-nYfYKV-9E55Ms-syKcBp-nWbnNt-tdYuC9-ttePZQ-tvhx3S-nDZPZU-nYg6TT-nWox6A-nDZJ1E-nDZgKd-ac8kwZ-2gEMXi">Source</a></div>
+
+# Tile Technology
+
+(TODO: this slide)
+
+256 x 256 pixel images
+
+Zoom levels
+
+(TODO: Gif of tiles loading)
+
+(TODO: Gif of same tile from multiple maps)
+
+# Making Your Own Web Map
+
+Google Maps API
+
+. . .
+
+Bing Maps API, ESRI JavaScript API, OpenLayers
+
+. . .
+
+Personal favorite: Leaflet
+
+# But those all require programming
+
+(TODO: some kind of reaction gif)
+
+# CartoDB
+
 
 
 # Local Geo Groups
