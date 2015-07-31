@@ -32,7 +32,7 @@ Can move around (pan) and zoom in and out
 
 . . .
 
-Like [Google Maps](https://www.google.com/maps)
+Like [Google Maps](https://www.google.maps/com)
 
 ![](img/google-maps.png)
 
@@ -140,19 +140,27 @@ Zoom levels
 
 # Making Your Own Web Map
 
-Google Maps API
+[Google Maps API](https://developers.google.com/maps/?hl=en)
 
 . . .
 
-Bing Maps API, ESRI JavaScript API, OpenLayers
+[Bing Maps API](https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx)
+
+[ESRI JavaScript API](https://developers.arcgis.com/javascript/)
+
+[OpenLayers](http://openlayers.org/)
 
 . . .
 
-Personal favorite: Leaflet
+[Leaflet](http://leafletjs.com/) (Personal Favorite)
 
 # But those all require programming
 
-(TODO: some kind of reaction gif)
+----------------------------
+
+<div class="big-image"><img src="img/cowboy-programmer.gif"></img></div>
+
+----------------------------
 
 # CartoDB
 
