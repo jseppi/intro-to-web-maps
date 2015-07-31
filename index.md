@@ -38,13 +38,13 @@ And also maps from [Bing](https://www.bing.com/maps/), [MapQuest](http://mapques
 
 Typically streets or satellite imagery
 
-(TODO: Streets and Satellite maps)
+![](img/bing-satellite.png)
 
-. . .
+# What is a Web Map?
 
 Sometimes with additional data overlaid
 
-(TODO: Example of thematic map)
+![](img/iswp-needs.png)
 
 . . .
 
