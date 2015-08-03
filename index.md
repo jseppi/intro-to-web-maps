@@ -48,7 +48,7 @@ Typically streets or satellite imagery
 
 # What is a Web Map?
 
-Sometimes with additional data overlaid
+Sometimes with a simplified basemap and additional data overlaid
 
 ![[apps.texastribune.org/reservoirs/](http://apps.texastribune.org/reservoirs/)](img/tt-reservoirlevels.png)
 
@@ -216,6 +216,10 @@ Free for up 50 MB of (converted) data - pretty generous!
 
 # CartoDB
 
+(TODO: Show Twitter sunrise)
+
+# CartoDB
+
 Sign up at [cartodb.com/signup](https://cartodb.com/signup) for today's exercises
 
 # Exercise 1 - Simple Points
@@ -234,10 +238,13 @@ This is a great resource for general cartographic data, and it's public domain!
 
 something else
 
-
 # Exercise 2 - Polygons
 
 Maybe census tracts in Austin with jobs data?
+
+# Exercise 3 - Earthquakes
+
+(TODO: Earthquakes data from CartoDB library)
 
 # Exercise 3 - Your Own Data Exploration
 
