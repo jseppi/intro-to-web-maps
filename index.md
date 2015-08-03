@@ -78,15 +78,21 @@ News sites, food review sites, travel booking sites, data explorers, etc.
 
 # Why do we care?
 
-(TODO: Motivation for why we care about maps)
-
 Maps are a valuable tool for communication
+
+. . .
 
 Power in communication
 
-By being capable or at least literate, you can challenge the communication of others
+. . .
+
+Maps show borders, areas of conquest, impacts of policies, natural phenomenon, and on and on
 
 # Why do we care?
+
+By understanding maps and cartography, we have the power to see biases and think critically
+
+. . .
 
 ![How to Lie with Maps by Mark Monmonier](img/how-to-lie-with-maps.png)
 
@@ -96,7 +102,7 @@ By being capable or at least literate, you can challenge the communication of ot
 
 . . .
 
-(TODO: MapQuest Image)
+![](img/mapquest_1996.jpg)
 
 . . .
 
@@ -105,6 +111,8 @@ Driving directions, on the Internet, printable
 . . .
 
 <span class="larger">WHOA!</span>
+
+<div class="attr">Mapquest 1996: <a href="http://www.computerhistory.org/revolution/the-web/20/392/2345">Source</a></div>
 
 ----------------------
 
@@ -132,7 +140,7 @@ Required a full page refresh to pan or zoom
 
 . . .
 
-(TODO: Early Google Maps GIF)
+![](img/old_google_maps.jpg)
 
 . . .
 
@@ -169,6 +177,28 @@ Zoom levels
 (TODO: Gif of tiles loading)
 
 (TODO: Gif of same tile from multiple maps)
+
+# Web Maps in the Future
+
+<span class="larger">Vector Tiles</span>
+
+. . .
+
+Phones are computers are faster now
+
+. . .
+
+Packets of unrendered spatial data and styling information drawn <em>on the fly</em> in your web browser
+
+. . .
+
+Greater interactivity, smoother zooming, better offline capabilities
+
+. . .
+
+Google Maps has already made the switch for many users, other companies (like Mapbox and ESRI) are also rapidly moving toward them
+
+
 
 # Making Your Own Web Map
 
@@ -245,6 +275,8 @@ Maybe census tracts in Austin with jobs data?
 # Exercise 3 - Earthquakes
 
 (TODO: Earthquakes data from CartoDB library)
+
+1. Download [All Earthquakes for the Last 30 Days](http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php) from USGS: [http://academy.cartodb.com/d/1.0_month.csv](http://academy.cartodb.com/d/1.0_month.csv)
 
 # Exercise 3 - Your Own Data Exploration
 
