@@ -54,9 +54,41 @@ Sometimes with additional data overlaid
 
 # What is a Web Map?
 
-Found everywhere these days: news sites, food review sites, travel booking sites, etc.
+Found everywhere these days:
 
-(TODO: Collage image of yelp, eater, airbnb, iswp, etc)
+. . .
+
+News sites, food review sites, travel booking sites, data explorers, etc.
+
+----------------------------
+
+<div class="big-image"><img src="img/yelp.png"></img></div>
+
+----------------------------
+
+<div class="big-image"><img src="img/airbnb.png"></img></div>
+
+----------------------------
+
+<div class="big-image"><img src="img/eater.png"></img></div>
+
+----------------------------
+
+<div class="big-image"><img src="img/iswp.png"></img></div>
+
+# Why do we care?
+
+(TODO: Motivation for why we care about maps)
+
+Maps are a valuable tool for communication
+
+Power in communication
+
+By being capable or at least literate, you can challenge the communication of others
+
+# Why do we care?
+
+![How to Lie with Maps by Mark Monmonier](img/how-to-lie-with-maps.png)
 
 # Some History
 
@@ -164,6 +196,60 @@ Zoom levels
 
 # CartoDB
 
+[CartoDB](http://cartodb.com) is an online service for geospatial data visualizations
+
+. . .
+
+Or as most people call them, "maps"
+
+. . . 
+
+Built on [PostGIS](http://postgis.net) and [PostgreSQL](http://postgresql.org)
+
+Easily import data from a variety of formats (spreadsheets, shapefiles, KML)
+
+Visualize the data in a web map with presets or customized options
+
+Perform simple or complex analyses
+
+Free for up 50 MB of (converted) data - pretty generous!
+
+# CartoDB
+
+Sign up at [cartodb.com/signup](https://cartodb.com/signup) for today's exercises
+
+# Exercise 1 - Simple Points
+
+[Natural Earth Data - naturalearthdata.com](http://www.naturalearthdata.com/)
+
+This is a great resource for general cartographic data, and it's public domain!
+
+# Exercise 1 - Simple Points
+
+(TODO: Goal Picture)
+
+1. Download [Natural Earth Data Populated Places](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-populated-places/) dataset: [goo.gl/JqPle5](http://goo.gl/JqPle5)
+
+1. Whatever
+
+something else
+
+
+# Exercise 2 - Polygons
+
+Maybe census tracts in Austin with jobs data?
+
+# Exercise 3 - Your Own Data Exploration
+
+Places for data
+
+- Austin GIS Data
+
+- ESRI Open Data http://opendata.arcgis.com/
+
+- CartoDB Data Repository
+
+-
 
 
 # Local Geo Groups

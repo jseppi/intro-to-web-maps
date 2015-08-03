@@ -18,7 +18,6 @@ body {
 body p, body ul {
   font-size: 30pt;
   line-height: 34pt;
-
 }
 
 span.larger {
@@ -94,10 +93,19 @@ ul a:visited {
 
 .slide { text-align: center;}
 
-.slide p {
+.slide p, .slide ol, .slide ul {
   padding: 10px;
-  margin: 0 2em;
+  margin: 0em 2em;
   background: rgba(70, 178, 157, 0.2); /*#46B29D;*/
+}
+
+.slide li > p {
+  background: inherit;
+  margin: 0;
+}
+
+.slide ol li {
+  margin: 0 0 0 2em;
 }
 
 .map {
