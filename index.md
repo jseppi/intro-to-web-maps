@@ -86,7 +86,13 @@ Power in communication
 
 . . .
 
-Maps show borders, areas of conquest, impacts of policies, natural phenomenon, and on and on
+Maps show borders, areas of conquest, impacts of policies, natural phenomenon, etc.
+
+------------------------------
+
+<div class="big-image"><img src="img/borders.png"></img></div>
+
+<div class="attr"><a href="http://opennews.kzhu.io/map-disputes/">Source</a></div>
 
 # Why do we care?
 
@@ -198,7 +204,7 @@ Greater interactivity, smoother zooming, better offline capabilities
 
 Google Maps has already made the switch for many users, other companies (like Mapbox and ESRI) are also rapidly moving toward them
 
-
+![](img/google-maps.png)
 
 # Making Your Own Web Map
 
