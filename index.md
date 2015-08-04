@@ -248,30 +248,6 @@ Maps with overlaid data are often called "thematic maps"
 
 <div class="big-image"><img src="img/choropleth.png" /></div>
 
-<!-- # Web Maps in the Future
-
-. . .
-
-<span class="larger">Vector Tiles</span>
-
-. . .
-
-Instead of pre-rendered images, the actual vector shapes (of roads, areas, points, etc.) are sent to your browser
-
-. . .
-
-Map is drawn **on-the-fly** from the vector data and styling information
-
-. . .
-
-Greater interactivity, smoother zooming, better offline capabilities
-
-# Web Maps in the Future
-
-Google Maps has already made the switch for many users, other companies (like Mapbox and ESRI) are also rapidly moving toward them
-
-![](img/google-maps.png) -->
-
 # Making Your Own Web Map
 
 [Google Maps API](https://developers.google.com/maps/?hl=en)
@@ -304,7 +280,7 @@ Or as most people call them, "maps"
 
 . . . 
 
-Built on [PostGIS](http://postgis.net) and [PostgreSQL](http://postgresql.org)
+Built on Open Source technology like [PostGIS](http://postgis.net) and [PostgreSQL](http://postgresql.org)
 
 # CartoDB
 
@@ -330,13 +306,29 @@ This is a great resource for general cartographic data, and it's public domain!
 
 # Exercise 1 - Simple Points
 
-1. Download [Natural Earth Data Populated Places](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-populated-places/) dataset: [goo.gl/JqPle5](http://goo.gl/JqPle5)
+. . .
 
-1. (TODO: Finish this)
+1. Download [Natural Earth Data Populated Places Simple](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-populated-places/) Shapefile: [goo.gl/QtJiCn](http://goo.gl/QtJiCn)
+
+1. Open [cartodb.com](http://cartodb.com) and sign-in
+
+1. Drag the downloaded `.zip` file into your CartoDB Dashboard
+
+1. Explore the Data View, note the different columns
+
+1. Explore the Map View, experiment with styling
+
+1. Click Visualize, then click Publish. Now you have a link!
+
+-------------------------
+
+<div class="big-image"><img src="img/world-cities-map.png" /></div>
 
 # Exercise 2 - Polygons
 
 (TODO: Polygon, choropleth exercise)
+
+http://acdmy.org/d/counties.zip
 
 # Exercise 3 - Earthquakes
 
@@ -349,6 +341,8 @@ This is a great resource for general cartographic data, and it's public domain!
 # Exercise 3 - Your Own Data Exploration
 
 Places for data
+
+![](img/data_library.png)
 
 (TODO: Find a few good sources of data)
 

@@ -297,29 +297,6 @@ NER Tile Map segment Beverley: <a href="https://creativecommons.org/licenses/by-
 <div class="big-image">
 <img src="img/choropleth.png" />
 </div>
-<!-- # Web Maps in the Future
-
-. . .
-
-<span class="larger">Vector Tiles</span>
-
-. . .
-
-Instead of pre-rendered images, the actual vector shapes (of roads, areas, points, etc.) are sent to your browser
-
-. . .
-
-Map is drawn **on-the-fly** from the vector data and styling information
-
-. . .
-
-Greater interactivity, smoother zooming, better offline capabilities
-
-# Web Maps in the Future
-
-Google Maps has already made the switch for many users, other companies (like Mapbox and ESRI) are also rapidly moving toward them
-
-![](img/google-maps.png) -->
 </div>
 <div id="making-your-own-web-map" class="slide section level1">
 <h1>Making Your Own Web Map</h1>
@@ -349,7 +326,7 @@ Google Maps has already made the switch for many users, other companies (like Ma
 <p>Or as most people call them, &quot;maps&quot;</p>
 </div>
 <div class="incremental">
-<p>Built on <a href="http://postgis.net">PostGIS</a> and <a href="http://postgresql.org">PostgreSQL</a></p>
+<p>Built on Open Source technology like <a href="http://postgis.net">PostGIS</a> and <a href="http://postgresql.org">PostgreSQL</a></p>
 </div>
 </div>
 <div id="cartodb-1" class="slide section level1">
@@ -372,14 +349,27 @@ Google Maps has already made the switch for many users, other companies (like Ma
 </div>
 <div id="exercise-1---simple-points-1" class="slide section level1">
 <h1>Exercise 1 - Simple Points</h1>
+<div class="incremental">
 <ol style="list-style-type: decimal">
-<li><p>Download <a href="http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-populated-places/">Natural Earth Data Populated Places</a> dataset: <a href="http://goo.gl/JqPle5">goo.gl/JqPle5</a></p></li>
-<li><p>(TODO: Finish this)</p></li>
+<li><p>Download <a href="http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-populated-places/">Natural Earth Data Populated Places Simple</a> Shapefile: <a href="http://goo.gl/QtJiCn">goo.gl/QtJiCn</a></p></li>
+<li><p>Open <a href="http://cartodb.com">cartodb.com</a> and sign-in</p></li>
+<li><p>Drag the downloaded <code>.zip</code> file into your CartoDB Dashboard</p></li>
+<li><p>Explore the Data View, note the different columns</p></li>
+<li><p>Explore the Map View, experiment with styling</p></li>
+<li><p>Click Visualize, then click Publish. Now you have a link!</p></li>
 </ol>
+</div>
+</div>
+<div class="slide section level1">
+
+<div class="big-image">
+<img src="img/world-cities-map.png" />
+</div>
 </div>
 <div id="exercise-2---polygons" class="slide section level1">
 <h1>Exercise 2 - Polygons</h1>
 <p>(TODO: Polygon, choropleth exercise)</p>
+<p>http://acdmy.org/d/counties.zip</p>
 </div>
 <div id="exercise-3---earthquakes" class="slide section level1">
 <h1>Exercise 3 - Earthquakes</h1>
@@ -392,6 +382,10 @@ Google Maps has already made the switch for many users, other companies (like Ma
 <div id="exercise-3---your-own-data-exploration" class="slide section level1">
 <h1>Exercise 3 - Your Own Data Exploration</h1>
 <p>Places for data</p>
+<div class="figure">
+<img src="img/data_library.png" alt="" />
+
+</div>
 <p>(TODO: Find a few good sources of data)</p>
 <ul>
 <li><p>Austin GIS Data</p></li>
