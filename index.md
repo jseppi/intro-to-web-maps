@@ -230,7 +230,25 @@ Zoom level 19: 4^19 tiles
 
 ![Zoom level 13, Row 1871, Column 3372](img/osm_13_1871_3372.png)
 
-# Web Maps in the Future
+# Overlaying Data
+
+Tiles generally are just for the background or *basemap*
+
+. . .
+
+Use vectors to overlay points, lines, and polygons
+
+. . .
+
+Maps with overlaid data are often called "thematic maps"
+
+![](img/vector-overlays.png)
+
+---------------------
+
+<div class="big-image"><img src="img/choropleth.png" /></div>
+
+<!-- # Web Maps in the Future
 
 . . .
 
@@ -252,7 +270,7 @@ Greater interactivity, smoother zooming, better offline capabilities
 
 Google Maps has already made the switch for many users, other companies (like Mapbox and ESRI) are also rapidly moving toward them
 
-![](img/google-maps.png)
+![](img/google-maps.png) -->
 
 # Making Your Own Web Map
 
