@@ -316,9 +316,9 @@ This is a great resource for general cartographic data, and it's public domain!
 
 1. Explore the Data View, note the different columns
 
-1. Explore the Map View, experiment with styling
+1. Explore the Map View, experiment with the Wizards. Try making a Bubble Map.
 
-1. Click Visualize, then click Publish. Now you have a link!
+1. Click Visualize, then click Publish. Now you have a shareable link!
 
 -------------------------
 
@@ -326,9 +326,19 @@ This is a great resource for general cartographic data, and it's public domain!
 
 # Exercise 2 - Polygons
 
-(TODO: Polygon, choropleth exercise)
+. . .
 
-http://acdmy.org/d/counties.zip
+1. Download [Map Academy's Counties Shapefile](http://acdmy.org/d/counties.zip): [acdmy.org/d/counties.zip](http://acdmy.org/d/counties.zip)
+
+1. Drag the downloaded `.zip` file into your CartoDB Dashboard
+
+1. Use the Wizard to make a Choropleth Map based on population. **Hint: Use `pop_sqkm`**
+
+1. Visualize and Publish your map once again.
+
+-------------------------
+
+<div class="big-image"><img src="img/population-choropleth.png" /></div>
 
 # Exercise 3 - Explore Earthquakes Data
 
@@ -336,13 +346,16 @@ http://acdmy.org/d/counties.zip
 
 1. Import the `.csv` into your CartoDB account (drag and drop)
 
-1. Experiment with the Wizard tab. Try Heat Map, Intensity, Density, maybe even Torque
+1. Experiment with the Wizard tab. Try Heat Map, Intensity, Density, maybe even Torque.
 
 # Exercise 4
 
 If time, try finding your own data or using the CartoDB Data Library
 
 ![](img/data_library.png)
+
+Or check out the CartoDB Map Academy: [academy.cartodb.com](http://academy.cartodb.com/)
+
 
 # Local Geo Groups
 
