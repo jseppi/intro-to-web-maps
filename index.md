@@ -62,19 +62,19 @@ News sites, food review sites, travel booking sites, data explorers, etc.
 
 ----------------------------
 
-<div class="big-image"><img src="img/yelp.png"></img></div>
+<div class="big-image"><img src="img/yelp.png" /></div>
 
 ----------------------------
 
-<div class="big-image"><img src="img/airbnb.png"></img></div>
+<div class="big-image"><img src="img/airbnb.png" /></div>
 
 ----------------------------
 
-<div class="big-image"><img src="img/eater.png"></img></div>
+<div class="big-image"><img src="img/eater.png" /></div>
 
 ----------------------------
 
-<div class="big-image"><img src="img/iswp.png"></img></div>
+<div class="big-image"><img src="img/iswp.png" /></div>
 
 # Why do we care?
 
@@ -90,7 +90,7 @@ Maps show borders, areas of conquest, impacts of policies, natural phenomenon, e
 
 ------------------------------
 
-<div class="big-image"><img src="img/borders.png"></img></div>
+<div class="big-image"><img src="img/borders.png" /></div>
 
 <div class="attr"><a href="http://opennews.kzhu.io/map-disputes/">Source</a></div>
 
@@ -154,9 +154,7 @@ Fluid, continuous panning and zooming
 
 ---------------------
 
-<div class="big-image"><img src="img/tim-and-eric-mind-blown.gif"></img></div>
-
----------------------
+<div class="big-image"><img src="img/tim-and-eric-mind-blown.gif" /></div>
 
 # Tile Technology
 
@@ -174,33 +172,83 @@ Fluid, continuous panning and zooming
 
 # Tile Technology
 
-(TODO: this slide)
+Tiles are 256 x 256 pixel images
 
-256 x 256 pixel images
+. . .
 
-Zoom levels
+When positioned next to each other, they look like one big image
 
-(TODO: Gif of tiles loading)
+---------------
 
-(TODO: Gif of same tile from multiple maps)
+<div class="big-image"><img src="img/tiles-loading.gif" /></div>
+
+# Tile Technology
+
+Tiles are rendered at different **zoom levels** to show different levels of detail
+
+. . .
+
+More detail -> More tiles
+
+. . . 
+
+The number of tiles increases exponentially at each zoom level
+
+. . .
+
+Typically the zoom levels are 0 through 19
+
+# Tile Technology
+
+Zoom level 0: The entire planet in a single tile
+
+. . .
+
+Zoom level 1: The entire planet in 4 tiles
+
+. . .
+
+Zoom level 2: 16 tiles
+
+...
+
+Zoom level 13: 67,108,864 tiles 
+
+...
+
+Zoom level 19: 4^19 tiles
+
+# Tile Technology
+
+![Zoom level 0](img/osm_0_0_0.png)
+
+# Tile Technology
+
+![Zoom level 1](img/osm_level1.png)
+
+# Tile Technology
+
+![Zoom level 13, Row 1871, Column 3372](img/osm_13_1871_3372.png)
 
 # Web Maps in the Future
+
+. . .
 
 <span class="larger">Vector Tiles</span>
 
 . . .
 
-Phones are computers are faster now
+Instead of pre-rendered images, the actual vector shapes (of roads, areas, points, etc.) are sent to your browser
 
 . . .
 
-Packets of unrendered spatial data and styling information drawn <em>on the fly</em> in your web browser
+Map is drawn **on-the-fly** from the vector data and styling information
 
 . . .
 
 Greater interactivity, smoother zooming, better offline capabilities
 
-. . .
+# Web Maps in the Future
 
 Google Maps has already made the switch for many users, other companies (like Mapbox and ESRI) are also rapidly moving toward them
 
@@ -226,9 +274,7 @@ Google Maps has already made the switch for many users, other companies (like Ma
 
 ----------------------------
 
-<div class="big-image"><img src="img/cowboy-programmer.gif"></img></div>
-
-----------------------------
+<div class="big-image"><img src="img/cowboy-programmer.gif" /></div>
 
 # CartoDB
 
@@ -242,17 +288,17 @@ Or as most people call them, "maps"
 
 Built on [PostGIS](http://postgis.net) and [PostgreSQL](http://postgresql.org)
 
+# CartoDB
+
 Easily import data from a variety of formats (spreadsheets, shapefiles, KML)
+
+. . .
 
 Visualize the data in a web map with presets or customized options
 
 Perform simple or complex analyses
 
 Free for up 50 MB of (converted) data - pretty generous!
-
-# CartoDB
-
-(TODO: Show Twitter sunrise)
 
 # CartoDB
 
@@ -266,17 +312,13 @@ This is a great resource for general cartographic data, and it's public domain!
 
 # Exercise 1 - Simple Points
 
-(TODO: Goal Picture)
-
 1. Download [Natural Earth Data Populated Places](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-populated-places/) dataset: [goo.gl/JqPle5](http://goo.gl/JqPle5)
 
-1. Whatever
-
-something else
+1. (TODO: Finish this)
 
 # Exercise 2 - Polygons
 
-Maybe census tracts in Austin with jobs data?
+(TODO: Polygon, choropleth exercise)
 
 # Exercise 3 - Earthquakes
 
@@ -288,14 +330,13 @@ Maybe census tracts in Austin with jobs data?
 
 Places for data
 
+(TODO: Find a few good sources of data)
+
 - Austin GIS Data
 
 - ESRI Open Data http://opendata.arcgis.com/
 
 - CartoDB Data Repository
-
--
-
 
 # Local Geo Groups
 

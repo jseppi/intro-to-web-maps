@@ -88,25 +88,25 @@ What is a Web Map?
 <div class="slide section level1">
 
 <div class="big-image">
-<img src="img/yelp.png"></img>
+<img src="img/yelp.png" />
 </div>
 </div>
 <div class="slide section level1">
 
 <div class="big-image">
-<img src="img/airbnb.png"></img>
+<img src="img/airbnb.png" />
 </div>
 </div>
 <div class="slide section level1">
 
 <div class="big-image">
-<img src="img/eater.png"></img>
+<img src="img/eater.png" />
 </div>
 </div>
 <div class="slide section level1">
 
 <div class="big-image">
-<img src="img/iswp.png"></img>
+<img src="img/iswp.png" />
 </div>
 </div>
 <div id="why-do-we-care" class="slide section level1">
@@ -122,7 +122,7 @@ What is a Web Map?
 <div class="slide section level1">
 
 <div class="big-image">
-<img src="img/borders.png"></img>
+<img src="img/borders.png" />
 </div>
 <div class="attr">
 <a href="http://opennews.kzhu.io/map-disputes/">Source</a>
@@ -192,7 +192,7 @@ Tiny Turtle: <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-
 <div class="slide section level1">
 
 <div class="big-image">
-<img src="img/tim-and-eric-mind-blown.gif"></img>
+<img src="img/tim-and-eric-mind-blown.gif" />
 </div>
 </div>
 <div id="tile-technology" class="slide section level1">
@@ -219,30 +219,86 @@ NER Tile Map segment Beverley: <a href="https://creativecommons.org/licenses/by-
 </div>
 <div id="tile-technology-2" class="slide section level1">
 <h1>Tile Technology</h1>
-<p>(TODO: this slide)</p>
-<p>256 x 256 pixel images</p>
-<p>Zoom levels</p>
-<p>(TODO: Gif of tiles loading)</p>
-<p>(TODO: Gif of same tile from multiple maps)</p>
+<p>Tiles are 256 x 256 pixel images</p>
+<div class="incremental">
+<p>When positioned next to each other, they look like one big image</p>
+</div>
+</div>
+<div class="slide section level1">
+
+<div class="big-image">
+<img src="img/tiles-loading.gif" />
+</div>
+</div>
+<div id="tile-technology-3" class="slide section level1">
+<h1>Tile Technology</h1>
+<p>Tiles are rendered at different <strong>zoom levels</strong> to show different levels of detail</p>
+<div class="incremental">
+<p>More detail -&gt; More tiles</p>
+</div>
+<div class="incremental">
+<p>The number of tiles increases exponentially at each zoom level</p>
+</div>
+<div class="incremental">
+<p>Typically the zoom levels are 0 through 19</p>
+</div>
+</div>
+<div id="tile-technology-4" class="slide section level1">
+<h1>Tile Technology</h1>
+<p>Zoom level 0: The entire planet in a single tile</p>
+<div class="incremental">
+<p>Zoom level 1: The entire planet in 4 tiles</p>
+</div>
+<div class="incremental">
+<p>Zoom level 2: 16 tiles</p>
+<p>...</p>
+<p>Zoom level 13: 67,108,864 tiles</p>
+<p>...</p>
+<p>Zoom level 19: 4^19 tiles</p>
+</div>
+</div>
+<div id="tile-technology-5" class="slide section level1">
+<h1>Tile Technology</h1>
+<div class="figure">
+<img src="img/osm_0_0_0.png" alt="Zoom level 0" />
+<p class="caption">Zoom level 0</p>
+</div>
+</div>
+<div id="tile-technology-6" class="slide section level1">
+<h1>Tile Technology</h1>
+<div class="figure">
+<img src="img/osm_level1.png" alt="Zoom level 1" />
+<p class="caption">Zoom level 1</p>
+</div>
+</div>
+<div id="tile-technology-7" class="slide section level1">
+<h1>Tile Technology</h1>
+<div class="figure">
+<img src="img/osm_13_1871_3372.png" alt="Zoom level 13, Row 1871, Column 3372" />
+<p class="caption">Zoom level 13, Row 1871, Column 3372</p>
+</div>
 </div>
 <div id="web-maps-in-the-future" class="slide section level1">
 <h1>Web Maps in the Future</h1>
-<p><span class="larger">Vector Tiles</span></p>
 <div class="incremental">
-<p>Phones are computers are faster now</p>
+<p><span class="larger">Vector Tiles</span></p>
 </div>
 <div class="incremental">
-<p>Packets of unrendered spatial data and styling information drawn <em>on the fly</em> in your web browser</p>
+<p>Instead of pre-rendered images, the actual vector shapes (of roads, areas, points, etc.) are sent to your browser</p>
+</div>
+<div class="incremental">
+<p>Map is drawn <strong>on-the-fly</strong> from the vector data and styling information</p>
 </div>
 <div class="incremental">
 <p>Greater interactivity, smoother zooming, better offline capabilities</p>
 </div>
-<div class="incremental">
+</div>
+<div id="web-maps-in-the-future-1" class="slide section level1">
+<h1>Web Maps in the Future</h1>
 <p>Google Maps has already made the switch for many users, other companies (like Mapbox and ESRI) are also rapidly moving toward them</p>
 <div class="figure">
 <img src="img/google-maps.png" alt="" />
 
-</div>
 </div>
 </div>
 <div id="making-your-own-web-map" class="slide section level1">
@@ -263,7 +319,7 @@ NER Tile Map segment Beverley: <a href="https://creativecommons.org/licenses/by-
 <div class="slide section level1">
 
 <div class="big-image">
-<img src="img/cowboy-programmer.gif"></img>
+<img src="img/cowboy-programmer.gif" />
 </div>
 </div>
 <div id="cartodb" class="slide section level1">
@@ -274,15 +330,16 @@ NER Tile Map segment Beverley: <a href="https://creativecommons.org/licenses/by-
 </div>
 <div class="incremental">
 <p>Built on <a href="http://postgis.net">PostGIS</a> and <a href="http://postgresql.org">PostgreSQL</a></p>
-<p>Easily import data from a variety of formats (spreadsheets, shapefiles, KML)</p>
-<p>Visualize the data in a web map with presets or customized options</p>
-<p>Perform simple or complex analyses</p>
-<p>Free for up 50 MB of (converted) data - pretty generous!</p>
 </div>
 </div>
 <div id="cartodb-1" class="slide section level1">
 <h1>CartoDB</h1>
-<p>(TODO: Show Twitter sunrise)</p>
+<p>Easily import data from a variety of formats (spreadsheets, shapefiles, KML)</p>
+<div class="incremental">
+<p>Visualize the data in a web map with presets or customized options</p>
+<p>Perform simple or complex analyses</p>
+<p>Free for up 50 MB of (converted) data - pretty generous!</p>
+</div>
 </div>
 <div id="cartodb-2" class="slide section level1">
 <h1>CartoDB</h1>
@@ -295,16 +352,14 @@ NER Tile Map segment Beverley: <a href="https://creativecommons.org/licenses/by-
 </div>
 <div id="exercise-1---simple-points-1" class="slide section level1">
 <h1>Exercise 1 - Simple Points</h1>
-<p>(TODO: Goal Picture)</p>
 <ol style="list-style-type: decimal">
 <li><p>Download <a href="http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-populated-places/">Natural Earth Data Populated Places</a> dataset: <a href="http://goo.gl/JqPle5">goo.gl/JqPle5</a></p></li>
-<li><p>Whatever</p></li>
+<li><p>(TODO: Finish this)</p></li>
 </ol>
-<p>something else</p>
 </div>
 <div id="exercise-2---polygons" class="slide section level1">
 <h1>Exercise 2 - Polygons</h1>
-<p>Maybe census tracts in Austin with jobs data?</p>
+<p>(TODO: Polygon, choropleth exercise)</p>
 </div>
 <div id="exercise-3---earthquakes" class="slide section level1">
 <h1>Exercise 3 - Earthquakes</h1>
@@ -316,11 +371,11 @@ NER Tile Map segment Beverley: <a href="https://creativecommons.org/licenses/by-
 <div id="exercise-3---your-own-data-exploration" class="slide section level1">
 <h1>Exercise 3 - Your Own Data Exploration</h1>
 <p>Places for data</p>
+<p>(TODO: Find a few good sources of data)</p>
 <ul>
 <li><p>Austin GIS Data</p></li>
 <li><p>ESRI Open Data http://opendata.arcgis.com/</p></li>
 <li><p>CartoDB Data Repository</p></li>
-<li></li>
 </ul>
 </div>
 <div id="local-geo-groups" class="slide section level1">
