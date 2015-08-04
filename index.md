@@ -232,7 +232,7 @@ Zoom level 19: 4^19 tiles
 
 # Overlaying Data
 
-Tiles generally are just for the background or *basemap*
+Tiles generally are just for the background or **basemap**
 
 . . .
 
@@ -240,7 +240,7 @@ Use vectors to overlay points, lines, and polygons
 
 . . .
 
-Maps with overlaid data are often called "thematic maps"
+Maps with overlaid data are often called **thematic maps**
 
 ![](img/vector-overlays.png)
 
@@ -284,7 +284,7 @@ Built on Open Source technology like [PostGIS](http://postgis.net) and [PostgreS
 
 # CartoDB
 
-Easily import data from a variety of formats (spreadsheets, shapefiles, KML)
+Easily import data from a variety of formats (spreadsheets, Shapefiles, KML)
 
 . . .
 
