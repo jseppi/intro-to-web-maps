@@ -298,7 +298,7 @@ Visualize the data in a web map with presets or customized options
 
 Perform simple or complex analyses
 
-Free for up 50 MB of (converted) data - pretty generous!
+Free for up 50 MB of (converted) data
 
 # CartoDB
 
@@ -324,7 +324,9 @@ This is a great resource for general cartographic data, and it's public domain!
 
 (TODO: Earthquakes data from CartoDB library)
 
-1. Download [All Earthquakes for the Last 30 Days](http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php) from USGS: [http://academy.cartodb.com/d/1.0_month.csv](http://academy.cartodb.com/d/1.0_month.csv)
+1. Download [All Earthquakes for the Last 30 Days](http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php) from USGS: [goo.gl/hhoAyK](http://goo.gl/hhoAyK)
+
+1. Step 2
 
 # Exercise 3 - Your Own Data Exploration
 
