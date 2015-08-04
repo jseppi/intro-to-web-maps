@@ -330,27 +330,19 @@ This is a great resource for general cartographic data, and it's public domain!
 
 http://acdmy.org/d/counties.zip
 
-# Exercise 3 - Earthquakes
-
-(TODO: Earthquakes data from CartoDB library)
+# Exercise 3 - Explore Earthquakes Data
 
 1. Download [All Earthquakes for the Last 30 Days](http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php) from USGS: [goo.gl/hhoAyK](http://goo.gl/hhoAyK)
 
-1. Step 2
+1. Import the `.csv` into your CartoDB account (drag and drop)
 
-# Exercise 3 - Your Own Data Exploration
+1. Experiment with the Wizard tab. Try Heat Map, Intensity, Density, maybe even Torque
 
-Places for data
+# Exercise 4
+
+If time, try finding your own data or using the CartoDB Data Library
 
 ![](img/data_library.png)
-
-(TODO: Find a few good sources of data)
-
-- Austin GIS Data
-
-- ESRI Open Data http://opendata.arcgis.com/
-
-- CartoDB Data Repository
 
 # Local Geo Groups
 
@@ -365,3 +357,5 @@ Austin Open Source GIS User Group
 # Credits
 
 * [Maptime Anatomy of a Web Map](http://maptime.io/anatomy-of-a-web-map/)
+
+* [CartoDB Map Academy](http://academy.cartodb.com/)
