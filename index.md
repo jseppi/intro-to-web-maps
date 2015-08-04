@@ -30,7 +30,7 @@ A cartographic map on a web page
 
 Can move around (pan) and zoom in and out
 
-. . .
+# What is a Web Map?
 
 Like [Google Maps](https://www.google.maps/com)
 
